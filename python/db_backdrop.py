@@ -2,7 +2,7 @@ import nuke
 import math
 
 # Add a new backdrop function
-def add_backdrop():
+def db_backdrop_add():
     
     # Get tile and grid sizes from Nuke preferences
     nuke_preferences = nuke.toNode('preferences')
@@ -75,8 +75,8 @@ def add_backdrop():
         note_font_size=font_size
     )
 
-# Align all selected Backdrops to grid function
-def db_backdropAlign():
+# Align all selected backdrops to grid function
+def db_backdrop_align():
 
     # Check selection exist
     selection = nuke.selectedNodes()
