@@ -44,7 +44,7 @@ def db_backdrop_add():
         # Lonely backdrop sized for 1 node
 
         # Get mouse position
-        temp_node = nuke.createNode('NoOp', inPanel=False)
+        temp_node = nuke.createNode('NoOp', inpanel=False)
         m_x = temp_node.xpos()
         m_y = temp_node.ypos()
         nuke.delete(temp_node)
