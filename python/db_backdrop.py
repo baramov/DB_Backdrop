@@ -11,10 +11,10 @@ def db_backdrop_add():
     tile_w = nuke_preferences['TileWidth'].getValue()
     tile_h = nuke_preferences['TileHeight'].getValue()
     
-    # Set padding
+    # Set padding based on the tiles
     pad_top = 8
     pad_bottom = 5
-    pad_side = 1
+    pad_side = 0.5
 
     # Set align step
     step_x = grid_w * 2
@@ -33,9 +33,9 @@ def db_backdrop_add():
         y_positions = [node.ypos() + (node.screenHeight() / 2) for node in selected_nodes]
 
         # Set boundaries
-        min_x = min(x_positions) - (tile_w * pad_side)
+        min_x = min(x_positions) - (tile_w * pad_side * 2)
         min_y = min(y_positions) - (tile_h * pad_top)
-        max_x = max(x_positions) + (tile_w * pad_side)
+        max_x = max(x_positions) + (tile_w * pad_side * 2)
         max_y = max(y_positions) + (tile_h * pad_bottom)
         raw_width = max_x - min_x
         raw_height = max_y - min_y
@@ -50,9 +50,9 @@ def db_backdrop_add():
         nuke.delete(temp_node)
 
         # Set boundaries
-        min_x = m_x - (tile_w * pad_side)
+        min_x = m_x - (tile_w * pad_side * 2)
         min_y = m_y - (tile_h * pad_top)
-        max_x = m_x + (tile_w * pad_side)
+        max_x = m_x + (tile_w * pad_side * 2)
         max_y = m_y + (tile_h * pad_bottom)
         raw_width = max_x - min_x
         raw_height = max_y - min_y
