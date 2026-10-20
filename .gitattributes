@@ -1,2 +1,5 @@
-* export-ignore
-DB_Backdrop/ -export-ignore
+/* export-ignore
+/DB_Backdrop -export-ignore
+/DB_Backdrop/** -export-ignore
+/LICENSE -export-ignore
+/README.md -export-ignore
