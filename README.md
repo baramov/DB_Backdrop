@@ -1,6 +1,6 @@
 # DB Backdrop
 
-A toolset for **Foundry Nuke**. Creates smart, grid-aligned backdrops and snaps existing backdrops to the even grid lines.
+A toolset for Foundry Nuke. Creates grid-aligned backdrops and snaps existing backdrops to the even grid lines.
 
 ## Core Features
 
@@ -39,5 +39,5 @@ After restarting Nuke, a new **`DB Tools`** menu will appear in the top menu bar
 ---
 
 ## Compatibility
-- Supported Versions: **Nuke 13, 14, 15, and 16+**.
+- Supported Versions: **Nuke 13.0 or later**.
 - OS Compatibility: Windows, Linux, macOS.
