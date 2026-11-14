@@ -11,10 +11,13 @@ A toolset for Foundry Nuke. Creates grid-aligned backdrops and snaps existing ba
 
 ## Installation & Setup
 
-### 1. Copy the Directory
+### 1. Download Release
+Download the latest version from **[release page](https://github.com/baramov/DB_Backdrop/releases)**.
+
+### 2. Copy the Directory
 Place the entire `DB_Backdrop` folder (containing `db_backdrop.py` and `menu.py`) into your `.nuke` directory.
 
-### 2. Configure `init.py`
+### 3. Configure `init.py`
 Add the line below to your **`~/.nuke/init.py`**:
 
 ```python
