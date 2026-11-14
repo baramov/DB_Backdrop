@@ -2,6 +2,8 @@
 
 A toolset for Foundry Nuke. Creates grid-aligned backdrops and snaps existing backdrops to the even grid lines.
 
+---
+
 ## Core Features
 
 - **Grid-Aligned Creation:** Spawns new backdrops that automatically snap their dimensions and positions to the even grid lines with smart padding based on node tiles.
@@ -9,16 +11,11 @@ A toolset for Foundry Nuke. Creates grid-aligned backdrops and snaps existing ba
 
 ---
 
-## Installation & Setup
+## Installation
 
-### 1. Download Release
-Download the latest version from the **[Releases page](https://github.com/baramov/DB_Backdrop/releases)**.
-
-### 2. Copy the Directory
-Place the entire `DB_Backdrop` folder (containing `db_backdrop.py` and `menu.py`) into your `.nuke` directory.
-
-### 3. Configure `init.py`
-Add the line below to your **`~/.nuke/init.py`**:
+1. Download the latest version from the **[Releases page](https://github.com/baramov/DB_Backdrop/releases)**.
+2. Place the entire `DB_Backdrop` folder (containing `db_backdrop.py` and `menu.py`) into your `.nuke` directory.
+3. Add the line below to your **`~/.nuke/init.py`**:
 
 ```python
 nuke.pluginAddPath('./DB_Backdrop')
