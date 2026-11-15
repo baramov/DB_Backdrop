@@ -2,6 +2,8 @@
 
 A toolset for Foundry Nuke. Creates grid-aligned backdrops and snaps existing backdrops to the even grid lines.
 
+<p align="center"><img width="2400" height="1500" alt="db_backdrop_example" src="https://github.com/user-attachments/assets/a5f52b50-bbfa-43f3-8d50-3690036d7abe" /></p>
+
 ---
 
 ## Core Features
